@@ -32,3 +32,16 @@ ul
 {
 list-style-type: none;
 }
+
+slide2 {
+  width: 500px;
+  overflow: hidden;
+}
+
+#slide2 img {
+  transition: all .25s;
+}
+
+#slide2:hover img {
+  transform: rotate(360deg);
+}
