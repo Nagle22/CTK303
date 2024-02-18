@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body style="background-color:#FAEBD7;">
+  <link href="Nagle_Javascript.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript_Nagle</title>
+  </head>
+  <body>
+    <h1>Click Counter</h1>
+    <img src="inf.png" alt="Image Not Found" class="center">
+      <div class="wrapper">
+        <h3>Click Counter</h3>
+        <script type="text/javascript">
+          var clicks = 0;
+          function hello() {
+              clicks += 1;
+              document.getElementById("clicks").innerHTML = clicks;
+          };
+          </script>
+          <button type="button" onclick="hello()">Click me</button>
+          <p>Clicks: <a id="clicks">0</a></p>
+      
+    </div>
+  </body>
+</html>
